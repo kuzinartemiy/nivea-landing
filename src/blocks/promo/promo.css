@@ -1,0 +1,98 @@
+.promo {
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+	margin-top: 1px;
+}
+
+.promo__wrapper {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1280px;
+	min-height: 650px;
+	padding-right: 58px;
+
+	background-image: url("../../images/promoImage.png");
+}
+
+.promo__content {
+	display: flex;
+	flex-direction: column;
+
+	box-sizing: border-box;
+
+	width: 500px;
+	min-height: 275px;
+	padding-top: 32px;
+
+	background-color: #FFF;
+}
+
+.promo__title {
+	margin: 0;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #0032A0;
+
+	font-family: Nivea, Arial, sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+}
+
+.promo__subtitle {
+	margin: 15px 0 0;
+
+	text-align: center;
+
+	color: #0032A0;
+
+	font-family: Nivea, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 10px;
+}
+
+.promo__cream {
+	position: absolute;
+	top: 90px;
+	left: 228px;
+
+	width: 200px;
+	height: 200px;
+
+	cursor: pointer;
+	transition: 0.3s;
+
+	background-image: url("../../images/creamWithCircle.png");
+}
+
+.promo__cream:hover {
+	opacity: 0.8;
+}
+
+.promo__gel {
+	position: absolute;
+	top: 290px;
+	left: 186px;
+
+	width: 250px;
+	height: 250px;
+
+	cursor: pointer;
+	transition: 0.3s;
+
+	background-image: url("../../images/gelWithCircle.png");
+}
+
+.promo__gel:hover {
+	opacity: 0.8;
+}

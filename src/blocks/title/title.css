@@ -1,0 +1,31 @@
+.title {
+	margin: 0;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #0032A0;
+
+	font-family: Nivea, Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.title_place_info {
+	max-width: 600px;
+}
+
+.title_place_info-gel {
+	max-width: 450px;
+
+	line-height: 38px;
+}
+
+.title_place_faq {
+	max-width: 550px;
+	margin-top: 18px;
+}
+
+.title_place_under-faq {
+	max-width: 550px;
+}

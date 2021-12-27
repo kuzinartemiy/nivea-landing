@@ -1,0 +1,40 @@
+.text {
+	margin: 0;
+
+	color: #0032A0;
+
+	font-family: Nivea, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.text_place_info-cream {
+	margin-top: 73px;
+}
+
+.text_place_info-gel {
+	margin-top: 114px;
+}
+
+.text_place_info-caption {
+	max-width: 700px;
+	margin-top: 24px;
+
+	text-align: center;
+}
+
+.text_place_faq {
+	margin-top: 14px;
+}
+
+.text_place_socials {
+	font-size: 11px;
+}
+
+.text_place_footer-copyright {
+	opacity: 0.5;
+	color: #FFF;
+
+	font-size: 14px;
+}

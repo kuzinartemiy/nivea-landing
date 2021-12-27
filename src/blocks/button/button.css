@@ -1,0 +1,41 @@
+.button {
+	box-sizing: border-box;
+	padding: 18px 40px;
+
+	cursor: pointer;
+	transition: 0.3s;
+	text-transform: uppercase;
+
+	color: #FFF;
+	border: none;
+	border-radius: 100px;
+	background-color: #0032A0;
+
+	font-family: Nivea, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.button_place_market {
+	padding: 15px 38px;
+
+	color: #06369D;
+	border: 1px solid #06369D;
+	background-color: transparent;
+}
+
+.button_place_market:hover {
+	opacity: 1;
+	color: #FFF;
+	border: 1px solid #0032A0;
+	background-color: #0032A0;
+}
+
+.button_place_footer-mailing {
+	max-width: 176px;
+	padding: 14px 40px;
+}
